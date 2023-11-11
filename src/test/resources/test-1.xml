@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<File name="file" fileName="test-1.log">
+			<LogfmtLayout includeStacktrace="false" includeContext="true" contextKeyPrefix="_">
+				<CustomLabel name="sysProp" value="${sys:sysProp}" />
+			</LogfmtLayout>
+		</File>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="file" />
+		</Root>
+	</Loggers>
+</Configuration>
