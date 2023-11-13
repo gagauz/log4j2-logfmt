@@ -5,7 +5,7 @@
 
 	<groupId>log4j2-logfmt</groupId>
 	<artifactId>log4j2-logfmt</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 
 	<name>logfmt layout for log4j2</name>
